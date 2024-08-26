@@ -9,7 +9,7 @@
 }
 
 body {
-    background: url(/Assets/weather-app-img/weather-bg.jpg) no-repeat;
+    background: url(../Assets/weather-app-img/weather-bg.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -18,7 +18,7 @@ body {
     font-family: "Inter", sans-serif;
 }
 body::before{
-    background: url(/Assets/weather-app-img/weather-bg.jpg) no-repeat 50% / cover;
+    background: url(../Assets/weather-app-img/weather-bg.jpg) no-repeat 50% / cover;
     content: "";
     height: 100%;
     left: 0;
