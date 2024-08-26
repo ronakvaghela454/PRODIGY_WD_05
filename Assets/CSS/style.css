@@ -9,23 +9,14 @@
 }
 
 body {
-    background: url(./Assets/weather-app-img/weather-bg.jpg) no-repeat;
+    background-image:url('/Assets/weather-app-img/weather-bg.jpg');
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
     font-family: "Inter", sans-serif;
-}
-body::before{
-    background: url(./Assets/weather-app-img/weather-bg.jpg) no-repeat 50% / cover;
-    content: "";
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: -1;
 }
 .card {
     width: 90%;
